@@ -595,7 +595,6 @@ img {
 .sec-title.light h2 {
   color: #ffffff;
 }
-
 /*** 
 
 ====================================================================
@@ -2002,7 +2001,7 @@ div#mCSB_1_container {
 }
 
 .bg-color-1 {
-  background-color: #eb67530d;
+  background-color: #ff22000d;
 }
 
 /** feature-section **/
@@ -4084,7 +4083,7 @@ div#mCSB_1_container {
 
 .cta-section.alternate-2 {
   position: relative;
-  padding: 138px 0px 150px 0px;
+  padding: 100px 0px 150px 0px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5250,6 +5249,9 @@ div#mCSB_1_container {
   position: relative;
   padding: 120px 0px;
 }
+.contact-section-mt {
+  margin: 100px 0px;
+}
 
 .contact-section .form-inner .form-group {
   position: relative;
@@ -5666,6 +5668,12 @@ div#mCSB_1_container {
   position: relative;
   background-color: #191b1f;
   overflow: hidden;
+  max-height: 690px;
+  /* background-image: url(../site-images/b3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  max-height: 690px; */
 }
 
 .banner-style-three .inner-box {
@@ -5880,7 +5888,7 @@ div#mCSB_1_container {
 .image_block_2 .image-box .text {
   position: absolute;
   left: 0px;
-  bottom: 75px;
+  bottom: 32px;
   width: 250px;
   text-align: center;
   background-color: #1b1d21;
@@ -9217,6 +9225,7 @@ div#mCSB_1_container {
   overflow: hidden;
   box-shadow: 0 10px 30px 0px rgb(0 0 0 / 10%);
   transition: all 500ms ease;
+  min-height: 350px;
 }
 
 .info-block-one .inner-box:hover {

@@ -423,7 +423,7 @@
       animateOut: "fadeOut",
       animateIn: "fadeIn",
       active: true,
-      smartSpeed: 1000,
+      smartSpeed: 3000,
       autoplay: 6000,
       navText: [
         '<span class="far fa-angle-left"></span>',
