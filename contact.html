@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
 
-    <title>Prashant Jha - Realtor</title>
+    <title>Realshed - HTML 5 Template Preview</title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
@@ -49,14 +49,14 @@
             <div class="animation-preloader">
               <div class="spinner"></div>
               <div class="txt-loading">
-                <span data-text-preloader="p" class="letters-loading"> p </span>
                 <span data-text-preloader="r" class="letters-loading"> r </span>
+                <span data-text-preloader="e" class="letters-loading"> e </span>
                 <span data-text-preloader="a" class="letters-loading"> a </span>
+                <span data-text-preloader="l" class="letters-loading"> l </span>
                 <span data-text-preloader="s" class="letters-loading"> s </span>
                 <span data-text-preloader="h" class="letters-loading"> h </span>
-                <span data-text-preloader="a" class="letters-loading"> a </span>
-                <span data-text-preloader="n" class="letters-loading"> n </span>
-                <span data-text-preloader="t" class="letters-loading"> t </span>
+                <span data-text-preloader="e" class="letters-loading"> e </span>
+                <span data-text-preloader="d" class="letters-loading"> d </span>
               </div>
             </div>
           </div>
@@ -64,8 +64,58 @@
       </div>
       <!-- preloader end -->
 
+      <!-- switcher menu -->
+      <div class="switcher">
+        <div class="switch_btn">
+          <button><i class="fas fa-palette"></i></button>
+        </div>
+        <div class="switch_menu">
+          <!-- color changer -->
+          <div class="switcher_container">
+            <ul id="styleOptions" title="switch styling">
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="green"
+                  class="green-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="pink"
+                  class="pink-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="violet"
+                  class="violet-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="crimson"
+                  class="crimson-color"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="javascript: void(0)"
+                  data-theme="orange"
+                  class="orange-color"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- end switcher menu -->
+
       <!-- main header -->
-      <header class="main-header dark-header">
+      <header class="main-header">
         <!-- header-top -->
         <div class="header-top">
           <div class="top-inner clearfix">
@@ -100,6 +150,9 @@
                   <a href="index.html"><i class="fab fa-vimeo-v"></i></a>
                 </li>
               </ul>
+              <div class="sign-box">
+                <a href="signin.html"><i class="fas fa-user"></i>Sign In</a>
+              </div>
             </div>
           </div>
         </div>
@@ -110,7 +163,7 @@
               <div class="logo-box">
                 <figure class="logo">
                   <a href="index.html"
-                    ><img src="assets/images/logo-2.png" alt=""
+                    ><img src="assets/images/logo.png" alt=""
                   /></a>
                 </figure>
               </div>
@@ -127,50 +180,199 @@
                     id="navbarSupportedContent"
                   >
                     <ul class="navigation clearfix">
-                      <li class="current">
-                        <a href="index.html"><span>Home</span></a>
-                      </li>
                       <li class="dropdown">
-                        <a href="index.html"><span>Buying</span></a>
+                        <a href="index.html"><span>Home</span></a>
                         <ul>
-                          <li><a href="agents-list.html">Buyer's Guide</a></li>
-                          <li><a href="agents-grid.html">Neighbourhood</a></li>
-                          <li>
-                            <a href="agents-details.html">Mortage Calculator</a>
+                          <li><a href="index.html">Main Home</a></li>
+                          <li><a href="index-2.html">Home Modern</a></li>
+                          <li><a href="index-3.html">Home Map</a></li>
+                          <li><a href="index-4.html">Home Half Map</a></li>
+                          <li><a href="index-5.html">Home Agent</a></li>
+                          <li><a href="index-onepage.html">OnePage Home</a></li>
+                          <li><a href="index-rtl.html">RTL Home</a></li>
+                          <li class="dropdown">
+                            <a href="index.html">Header Style</a>
+                            <ul>
+                              <li><a href="index.html">Header Style 01</a></li>
+                              <li>
+                                <a href="index-2.html">Header Style 02</a>
+                              </li>
+                              <li>
+                                <a href="index-3.html">Header Style 03</a>
+                              </li>
+                            </ul>
                           </li>
                         </ul>
                       </li>
                       <li class="dropdown">
-                        <a href="index.html"><span>Selling</span></a>
+                        <a href="index.html"><span>Listing</span></a>
+                        <ul>
+                          <li><a href="agents-list.html">Agents List</a></li>
+                          <li><a href="agents-grid.html">Agents Grid</a></li>
+                          <li>
+                            <a href="agents-details.html">Agent Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a href="index.html"><span>Property</span></a>
                         <ul>
                           <li>
-                            <a href="property-list.html">Seller's Guide</a>
+                            <a href="property-list.html">Property List</a>
                           </li>
                           <li>
-                            <a href="property-grid.html">Marketing</a>
+                            <a href="property-grid.html">Property Grid</a>
                           </li>
                           <li>
                             <a href="property-list-2.html"
-                              >Free home valuation</a
+                              >Property List Full View</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-grid-2.html"
+                              >Property Grid Full View</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-list-3.html"
+                              >Property List Half View</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-grid-3.html"
+                              >Property Grid Half View</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-details.html"
+                              >Property Details 01</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-details-2.html"
+                              >Property Details 02</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-details-3.html"
+                              >Property Details 03</a
+                            >
+                          </li>
+                          <li>
+                            <a href="property-details-4.html"
+                              >Property Details 04</a
                             >
                           </li>
                         </ul>
                       </li>
-                      <li>
-                        <a href="contact.html"><span>Pre Construction</span></a>
+                      <li class="dropdown">
+                        <a href="index.html"><span>Pages</span></a>
+                        <div class="megamenu">
+                          <div class="row clearfix">
+                            <div class="col-xl-4 column">
+                              <ul>
+                                <li><h4>Pages</h4></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li>
+                                  <a href="services.html">Our Services</a>
+                                </li>
+                                <li><a href="faq.html">Faq's Page</a></li>
+                                <li>
+                                  <a href="pricing.html">Pricing Table</a>
+                                </li>
+                                <li>
+                                  <a href="compare-roperties.html"
+                                    >Compare Properties</a
+                                  >
+                                </li>
+                                <li>
+                                  <a href="categories.html">Categories Page</a>
+                                </li>
+                                <li>
+                                  <a href="career.html">Career Opportunity</a>
+                                </li>
+                                <li>
+                                  <a href="testimonials.html">Testimonials</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-xl-4 column">
+                              <ul>
+                                <li><h4>Pages</h4></li>
+                                <li><a href="gallery.html">Our Gallery</a></li>
+                                <li><a href="profile.html">My Profile</a></li>
+                                <li><a href="signin.html">Sign In</a></li>
+                                <li><a href="signup.html">Sign Up</a></li>
+                                <li><a href="error.html">404</a></li>
+                                <li>
+                                  <a href="agents-list.html">Agents List</a>
+                                </li>
+                                <li>
+                                  <a href="agents-grid.html">Agents Grid</a>
+                                </li>
+                                <li>
+                                  <a href="agents-details.html"
+                                    >Agent Details</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-xl-4 column">
+                              <ul>
+                                <li><h4>Pages</h4></li>
+                                <li><a href="blog-1.html">Blog 01</a></li>
+                                <li><a href="blog-2.html">Blog 02</a></li>
+                                <li><a href="blog-3.html">Blog 03</a></li>
+                                <li>
+                                  <a href="blog-details.html">Blog Details</a>
+                                </li>
+                                <li>
+                                  <a href="agency-list.html">Agency List</a>
+                                </li>
+                                <li>
+                                  <a href="agency-grid.html">Agency Grid</a>
+                                </li>
+                                <li>
+                                  <a href="agency-details.html"
+                                    >Agency Details</a
+                                  >
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                       </li>
-                      <li>
-                        <a href="contact.html"><span>Leasing</span></a>
+                      <li class="dropdown">
+                        <a href="index.html"><span>Agency</span></a>
+                        <ul>
+                          <li><a href="agency-list.html">Agency List</a></li>
+                          <li><a href="agency-grid.html">Agency Grid</a></li>
+                          <li>
+                            <a href="agency-details.html">Agency Details</a>
+                          </li>
+                        </ul>
                       </li>
-                      <li>
-                        <a href="our-team.html"><span>Our Team</span></a>
+                      <li class="dropdown">
+                        <a href="index.html"><span>Blog</span></a>
+                        <ul>
+                          <li><a href="blog-1.html">Blog 01</a></li>
+                          <li><a href="blog-2.html">Blog 02</a></li>
+                          <li><a href="blog-3.html">Blog 03</a></li>
+                          <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
                       </li>
-                      <li>
-                        <a href="contact.html"><span>Contact Us</span></a>
+                      <li class="current">
+                        <a href="contact.html"><span>Contact</span></a>
                       </li>
                     </ul>
                   </div>
                 </nav>
+              </div>
+              <div class="btn-box">
+                <a href="index.html" class="theme-btn btn-one"
+                  ><span>+</span>Add Listing</a
+                >
               </div>
             </div>
           </div>
@@ -183,7 +385,7 @@
               <div class="logo-box">
                 <figure class="logo">
                   <a href="index.html"
-                    ><img src="assets/images/logo-2.png" alt=""
+                    ><img src="assets/images/logo.png" alt=""
                   /></a>
                 </figure>
               </div>
@@ -191,6 +393,11 @@
                 <nav class="main-menu clearfix">
                   <!--Keep This Empty / Menu will come through Javascript-->
                 </nav>
+              </div>
+              <div class="btn-box">
+                <a href="index.html" class="theme-btn btn-one"
+                  ><span>+</span>Add Listing</a
+                >
               </div>
             </div>
           </div>
@@ -256,137 +463,59 @@
       >
         <div class="auto-container">
           <div class="content-box clearfix">
-            <h1>Buyer's Guide</h1>
+            <h1>Contact Us</h1>
             <ul class="bread-crumb clearfix">
               <li><a href="index.html">Home</a></li>
-              <li>Buyer's Guide</li>
+              <li>Contact Us</li>
             </ul>
           </div>
         </div>
       </section>
       <!--End Page Title-->
 
-      <!-- career-page-section -->
-      <section class="career-page-section sec-pad">
-        <div class="auto-container">
-          <div class="row clearfix">
-            <div class="col-lg-6 col-md-12 col-sm-12 left-side">
-              <div class="sec-title">
-                <h5>First Time Buyer Guide</h5>
-                <h2>Let's find your <br />ZEN!</h2>
-                <p>Is this the right time to buy ?</p>
-                <p>From where do I start?</p>
-                <p>How does home-buying work?</p>
-                <p>What else do I need to know?</p>
-                <p>
-                  Some of the common questions one may have. Buying a home –
-                  especially your first – can seem like a exhausting process.
-                </p>
-                <p>
-                  We can help you understand exactly what to expect when
-                  purchasing a new property.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 right-side">
-              <ul class="accordion-box">
-                <li class="accordion block active-block">
-                  <div class="acc-btn active">
-                    <div class="icon-outer">
-                      <i class="fas fa-angle-down"></i>
-                    </div>
-                    <h5>10 Steps to purchasing a home</h5>
-                  </div>
-                  <div class="acc-content current">
-                    <div class="content-box">
-                      <ul class="list-style-one clearfix">
-                        <li>
-                          Choose a real estate agent that’s right for you.
-                        </li>
-                        <li>Know your budget.</li>
-                        <li>Explore mortgage options, get pre-approved.</li>
-                        <li>
-                          Get access to online portal & browse homes online.
-                        </li>
-                        <li>
-                          Identify homes you like and schedule home tours.
-                        </li>
-                        <li>Make an offer.</li>
-                        <li>Get a home inspection.</li>
-                        <li>Close the deal.</li>
-                        <li>Update utilities and transfer services.</li>
-                        <li>Move into your new home!</li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- career-page-section end -->
-
-      <!-- feature-style-three -->
-      <section class="feature-style-three service-page centred" style="padding-top: 0;">
+      <!-- contact-info-section -->
+      <section class="contact-info-section sec-pad centred">
         <div class="auto-container">
           <div class="sec-title">
-            <h5>Expertise</h5>
-            <h2>OUR EXPERTISE</h2>
+            <h5>Contact us</h5>
+            <h2>Get In Touch</h2>
           </div>
           <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-              <div
-                class="feature-block-two wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-              >
+            <div class="col-lg-4 col-md-6 col-sm-12 info-block">
+              <div class="info-block-one">
                 <div class="inner-box">
-                  <div class="icon-box"><i class="icon-24"></i></div>
-                  <h4>Neighbourhood expert</h4>
+                  <div class="icon-box"><i class="icon-32"></i></div>
+                  <h4>Email Address</h4>
                   <p>
-                    We know the Cities, Towns & the neighborhoods which will
-                    suite your needs and your budget. Our reach
-                    will and get you access to more opportunities.
+                    <a href="mailto:home@prashantjhala.ca"
+                      >home@prashantjhala.ca</a
+                    >
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-              <div
-                class="feature-block-two wow fadeInUp animated"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-              >
+            <div class="col-lg-4 col-md-6 col-sm-12 info-block">
+              <div class="info-block-one">
                 <div class="inner-box">
-                  <div class="icon-box"><i class="icon-25"></i></div>
-                  <h4>We do our due diligence</h4>
-                  <p>
-                    Our extensive skills and experience in the market will help us carry out the proper due-diligence to deliver the best results.
-                  </p>
+                  <div class="icon-box"><i class="icon-33"></i></div>
+                  <h4>Phone Number</h4>
+                  <p><a href="tel:+23055873407">: 905.782.3946</a></p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 feature-block">
-              <div
-                class="feature-block-two wow fadeInUp animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
+            <div class="col-lg-4 col-md-6 col-sm-12 info-block">
+              <div class="info-block-one">
                 <div class="inner-box">
-                  <div class="icon-box"><i class="icon-26"></i></div>
-                  <h4>We protect your interests</h4>
-                </h4>
-                  <p>
-                    Clients before everything - that is our motto. We promise to protect your best interests and to make sure experience smooth and memorable.
-                  </p>
+                  <div class="icon-box"><i class="icon-34"></i></div>
+                  <h4>Office Address</h4>
+                  <p>11775 Bramalea Rd Suite:201, Brampton, ON L6R 3Z4</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- feature-style-three end -->
+      <!-- contact-info-section end -->
 
       <!-- contact-section -->
       <section class="contact-section bg-color-1">
@@ -395,11 +524,11 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
               <div class="content-box">
                 <div class="sec-title">
-                  <h5>Apply Job</h5>
-                  <h2>Apply For Career</h2>
+                  <h5>Contact</h5>
+                  <h2>Contact Us</h2>
                 </div>
                 <div class="form-inner">
-                  <form method="post">
+                  <form method="post" action="sendemail.php" id="contact-form">
                     <div class="row clearfix">
                       <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                         <input
@@ -455,15 +584,20 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-              <div
-                class="image-box wow fadeInRight animated"
-                data-wow-delay="00ms"
-                data-wow-duration="3000ms"
-              >
-                <figure class="image">
-                  <img src="assets/images/resource/contact-1.jpg" alt="" />
-                </figure>
+            <div class="col-lg-6 col-md-12 col-sm-12 map-column">
+              <div class="google-map-area">
+                <div
+                  class="google-map"
+                  id="contact-google-map"
+                  data-map-lat="40.712776"
+                  data-map-lng="-74.005974"
+                  data-icon-path="assets/images/icons/map-marker.png"
+                  data-map-title="Brooklyn, New York, United Kingdom"
+                  data-map-zoom="12"
+                  data-markers='{
+                                    "marker-1": [40.712776, -74.005974, "<h4>Branch Office</h4><p>77/99 New York</p>","assets/images/icons/map-marker.png"]
+                                }'
+                ></div>
               </div>
             </div>
           </div>
@@ -522,51 +656,68 @@
                     <h3>About</h3>
                   </div>
                   <div class="text">
-                    <p>Prashant Jhala, REALTOR®</p>
+                    <p>
+                      Lorem ipsum dolor amet consetetur adi pisicing elit sed
+                      eiusm tempor in cididunt ut labore dolore magna aliqua
+                      enim ad minim venitam
+                    </p>
+                    <p>
+                      Quis nostrud exercita laboris nisi ut aliquip commodo.
+                    </p>
                   </div>
-                
-                  <li>
-                    <a href="mailto:home@prashantjhala.ca"
-                      >home@prashantjhala.ca</a
-                    >
-                    </li>
-                    
-                </ul>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div class="footer-widget links-widget ml-70">
                   <div class="widget-title">
-                    <h3>Buying</h3>
+                    <h3>Services</h3>
                   </div>
                   <div class="widget-content">
                     <ul class="links-list class">
-                      <li><a href="index.html">Buyer's Guide</a></li>
-                      <li><a href="index.html">Neighbourhood</a></li>
-                      <li><a href="index.html">Mortage Calculator</a></li>
+                      <li><a href="index.html">About Us</a></li>
+                      <li><a href="index.html">Listing</a></li>
+                      <li><a href="index.html">How It Works</a></li>
+                      <li><a href="index.html">Our Services</a></li>
+                      <li><a href="index.html">Our Blog</a></li>
+                      <li><a href="index.html">Contact Us</a></li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
-                <div class="footer-widget links-widget ml-70">
+                <div class="footer-widget post-widget">
                   <div class="widget-title">
-                    <h3>Selling</h3>
+                    <h3>Top News</h3>
                   </div>
-                  <div class="widget-content">
-                    <ul  class="links-list class">
-                      <li>
-                        <a href="property-list.html">Seller's Guide</a>
-                      </li>
-                      <li>
-                        <a href="property-grid.html">Marketing</a>
-                      </li>
-                      <li>
-                        <a href="property-list-2.html"
-                          >Free home valuation</a
+                  <div class="post-inner">
+                    <div class="post">
+                      <figure class="post-thumb">
+                        <a href="blog-details.html"
+                          ><img
+                            src="assets/images/resource/footer-post-1.jpg"
+                            alt=""
+                        /></a>
+                      </figure>
+                      <h5>
+                        <a href="blog-details.html"
+                          >The Added Value Social Worker</a
                         >
-                      </li>
-                    </ul>
+                      </h5>
+                      <p>Mar 25, 2020</p>
+                    </div>
+                    <div class="post">
+                      <figure class="post-thumb">
+                        <a href="blog-details.html"
+                          ><img
+                            src="assets/images/resource/footer-post-2.jpg"
+                            alt=""
+                        /></a>
+                      </figure>
+                      <h5>
+                        <a href="blog-details.html">Ways to Increase Trust</a>
+                      </h5>
+                      <p>Mar 24, 2020</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -578,12 +729,12 @@
                   <div class="widget-content">
                     <ul class="info-list clearfix">
                       <li>
-                        <i class="fas fa-map-marker-alt"></i>11775 Bramalea Rd
-                        Suite:201, Brampton, ON L6R 3Z4
+                        <i class="fas fa-map-marker-alt"></i>Flat 20, Reynolds
+                        Neck, North Helenaville, FV77 8WS
                       </li>
                       <li>
                         <i class="fas fa-microphone"></i
-                        ><a href="tel:23055873407">905.913.8500</a>
+                        ><a href="tel:23055873407">+2(305) 587-3407</a>
                       </li>
                       <li>
                         <i class="fas fa-envelope"></i
@@ -603,13 +754,13 @@
             <div class="inner-box clearfix">
               <figure class="footer-logo">
                 <a href="index.html"
-                  ><img src="assets/images/logo-2.png" alt=""
+                  ><img src="assets/images/footer-logo.png" alt=""
                 /></a>
               </figure>
               <div class="copyright pull-left">
                 <p>
-                  <a href="index.html">Prashant Jha</a> &copy; 2023 All Right
-                  Reserved.
+                  <a href="index.html">Realshed</a> &copy; 2021 All Right
+                  Reserved
                 </p>
               </div>
               <ul class="footer-nav pull-right clearfix">
@@ -643,6 +794,11 @@
     <script src="assets/js/jQuery.style.switcher.min.js"></script>
     <script src="assets/js/jquery-ui.js"></script>
     <script src="assets/js/product-filter.js"></script>
+
+    <!-- map script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+    <script src="assets/js/gmaps.js"></script>
+    <script src="assets/js/map-helper.js"></script>
 
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
