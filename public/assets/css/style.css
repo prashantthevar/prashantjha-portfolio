@@ -1545,7 +1545,7 @@ div#mCSB_1_container {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center;
   padding-top: 150px;
   padding-bottom: 60px;
 }
@@ -2823,6 +2823,7 @@ div#mCSB_1_container {
 
 .chooseus-section {
   position: relative;
+  padding-bottom: 120px;
 }
 
 .chooseus-section .inner-container {
