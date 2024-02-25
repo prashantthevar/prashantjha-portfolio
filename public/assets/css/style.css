@@ -2974,13 +2974,24 @@ div#mCSB_1_container {
 
 .place-block-one .inner-box .text {
   position: absolute;
-  left: 30px;
-  bottom: 30px;
-  width: calc(100% - 60px);
+  left: 10px;
+  bottom: 10px;
   background-color: #ffffff;
-  padding: 14px 30px;
+  padding: 4px 8px;
   border-radius: 5px;
   z-index: 2;
+  text-transform: capitalize;
+}
+.place-block-one .inner-box .text-link {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  z-index: 2;
+  text-transform: capitalize;
+  cursor: pointer;
 }
 
 .place-block-one .inner-box .text h4 {
@@ -2992,9 +3003,26 @@ div#mCSB_1_container {
   margin-bottom: 1px;
 }
 
+.place-block-one .inner-box .text-link h4 {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 1px;
+}
+.place-block-one .inner-box .text-link h4 a {
+  display: inline-block;
+  color: #2d2929;
+  font-size: 15px;
+  line-height: 19px;
+}
+
 .place-block-one .inner-box .text h4 a {
   display: inline-block;
   color: #2d2929;
+  font-size: 15px;
+  line-height: 19px;
 }
 
 .place-block-one .inner-box .text h4 a:hover {
@@ -5835,7 +5863,7 @@ div#mCSB_1_container {
 .image_block_2 .image-box {
   position: relative;
   display: block;
-  padding-left: 130px;
+  /* padding-left: 130px; */
 }
 
 .image_block_2 .image-box .image {
