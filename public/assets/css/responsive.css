@@ -933,15 +933,15 @@
   }
 
   .main-header .outer-box .main-box {
-    display: block;
+    /* display: block; */
   }
 
   .main-header .logo-box .logo {
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   .menu-area .mobile-nav-toggler {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   .search-field .advanced-search {
